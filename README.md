@@ -17,9 +17,23 @@ Not Yet. Probably not ever :(
 ### Manual
 
 1. [Download the .zip](https://github.com/mrmartineau/SetiUI-Icons-Sublime/archive/master.zip).
-2. Unzip and Copy the folder into `Packages/User` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text.
-3. rename the unzipped folder to the exact name of your current theme's parent folder, for example "Theme - Soda"
-4. If your theme is Soda Dark 3, then create a new file called "Soda Dark 3" in the newly downloaded directory.
+
+2. Unzip and Copy the folder into `Packages/User` directory
+   - you can find the fullpatht o `Packages/User` directory by using the menu item `Preferences -> Browse Packages...` in Sublime Text.
+   
+3. Rename the unzipped folder to the exact name of your current theme's parent folder
+    - If your theme is "Adaptive.sublime-theme", then new name of the unzipped folder is `Adaptive`
+    - You can find the name of your current theme by using the menu item `Perferences -> Settings`. 
+      - the above will open 2 panels; 
+        - one for `Perferences.sublime-settings - Default`
+        - the other for `Perferences.sublime-settings - User`
+      - If you are using a custom theme, then your current theme is set in `Perferences.sublime-settings - User`. Look for the line: "theme": "theme_name" 
+      - if you are not using a custom theme, then you current theme is is set in `Perferences.sublime-settings - Default`. Look for the line: "theme": "theme_name" 
+      
+4. Create a new file inside the renamed directory. The name of the new file should match the name of your theme. 
+    - for example,if your theme is "Adaptive.sublime-theme", then the new file is named "Adaptive.sublime-theme".
+    
+    
 5. Restart Sublime :)
 
 ### Credits
